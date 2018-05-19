@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -8,4 +8,18 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="SandwichClub.DetailsText" parent="android:Widget.TextView">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+    </style>
+
+    <style name="SandwichClub.DetailsLabel" parent="SandwichClub.DetailsText">
+
+    </style>
+
+    <style name="SandwichClub.DetailsTextView" parent="SandwichClub.DetailsText">
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>
